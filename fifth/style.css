@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  margin: left;
+  background-color: wheat;
+  height: 130px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+nav ul li{
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.top{
+  margin-top: 40px;
+}
+
+.button{
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 10px white;
+  border-radius: 50px;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 10px black;
+}
+
+.wix{
+  margin-left: 100px;
+}
+
+.log{
+  margin-left: 130px;
+}
+
+#globe{
+  margin-left: 160px;
+  font-size: 30px;
+  margin-top: 8px;
+  color: rgb(199, 197, 197);
+}
+
+.parent{
+  background-color:rgb(89, 11, 69);
+}
+
+
+
+.parent h1{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+
+.parent h4{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+.parent button{
+  margin-left: 750px;
+  height: 70px;
+  line-height: 70px;
+  color:white;
+  background-color:black;
+  border-radius: 50px;
+  width: 250px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px white;
+}
+
+.parent button:hover{
+  color: black;
+  background-color: white;
+  box-shadow: 5px 5px 10px black;
+}
+
+.child1{
+  margin-left: 100px;
+}
+
+.parent1 h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.parent1 p{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.parent2{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  height: 800px;
+  animation: slide 20s   infinite;
+}
+
+@keyframes slide{
+  0%{
+    background-image: url(images/3d-view-chinese-new-year-reunion-dinner-food.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  25%{
+    background-image: url(images/pre-prepared-food-showcasing-ready-eat-delicious-meals-go.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url(images/pre-prepared-food-showcasing-ready-eat-delicious-meals-go\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  75%{
+    background-image: url(images/pre-prepared-food-showcasing-ready-eat-delicious-meals-go\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  100%{
+    background-image: url(images/succulent-thick-juicy-portions-grilled-fillet-steak-ai-generated-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

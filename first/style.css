@@ -1,0 +1,159 @@
+nav{
+  margin: left;
+}
+
+
+nav ul li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  list-style: none;
+  width: 140px;
+  background-color: black;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover{
+  background-color: gray;
+}
+
+nav ul li a:hover{
+  color: black;
+}
+
+.magnifer{
+  height: 40px;
+}
+
+.main{
+  background-color: black;
+}
+
+.child1 h1 {
+  text-align: center;
+}
+
+.child1 p{
+  text-align: center;
+  color: rgb(173, 170, 170);
+  font-size: 20px;
+}
+
+.child2 p{
+  text-align: center;
+  text-align: justify;
+ padding: 0px 100px 10px 100px; 
+}
+
+.parent2{
+  background-color: black;
+}
+
+.child3 h1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.child4{
+  color:gray;
+  font-size: 20px;
+  margin: 0px 80px 0px 350px;
+}
+
+.child4 ul li{
+  list-style: none;
+  display:block;
+}
+
+.sold{
+  background-color: rgb(213, 71, 20);
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.soldd{
+  background-color: rgb(213, 71, 20);
+  margin-left: 35px;
+  font-size: 20px;
+  color: white;
+}
+
+.parent3{
+  background-color: white;
+}
+
+.parent4{
+  display: flex;
+  margin: 0px 0px 0px 330px;
+}
+
+.same{
+  width: 50;
+  margin: 10px;
+background-color:wheat;
+border-radius: 10px;
+}
+
+.p{
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.p2{
+  margin-left: 50px;
+  color: grey;
+}
+
+.p3{
+  text-align: justify;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  margin: 0px 0px 10px 30px;
+}
+
+.parent5{
+  display: flex;
+  background-color: white;
+}
+
+.child8{
+  color: black;
+  margin: 50px 0px 0px 650px;
+}
+
+.contact{
+  font-size: 30px;
+}
+
+.fans{
+  font-size: 20px;
+  color: gray;
+}
+
+.parent6{
+  background-color: white;
+  display: flex;
+}
+
+.child9{
+  width: 50%;
+  margin: 0px 0px 0px 325px;
+}
+
+.child10{
+  width: 50%;
+  margin: 0px 325px 0px 10px;
+}
+

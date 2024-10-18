@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .child1{
+      width: 500%;
+      animation: slide 15s   infinite  ;
+    }
+
+    .child1 img{
+      width: 19.9%;
+      height: 300px;
+    }
+
+    @keyframes slide{
+      0%{
+        margin-left: 0%;
+      }
+      20%{
+        margin-left: -100%;
+      }
+      40%{
+        margin-left: -200%;
+      }
+      60%{
+        margin-left: -300%;
+      }
+      80%{
+        margin-left: -400%;
+      }
+      100%{
+        margin-left: 0%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+
+    <div class="child1">
+      <img src="images/t1.jpg" alt="" height="300">
+      <img src="images/t2.jpg" alt="">
+      <img src="images/t3.jpg" alt="">
+      <img src="images/t4.jpg" alt="">
+      <img src="images/t5.jpg" alt="">
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,603 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.sign{
+  position: absolute;
+  margin-left: 1390px;
+}
+
+.sign button{
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+}
+
+.log{
+  position: absolute;
+  margin-left: 1300px;
+
+}
+
+.img{
+  margin-left: 20px;
+}
+
+nav{
+  margin: left;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  height: 50px;
+}
+
+nav ul li{
+  float: left;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.parent{
+  height: 700px;
+  animation: slide 12s   infinite normal ;
+}
+
+@keyframes slide{
+  0%{
+    background-image: url(images/yoga-partners-sitting-with-hands-up.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50%{
+    background-image: url(images/yoga-girl.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  100%{
+    background-image: url(images/sunny-day-nature-yoga.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+}
+
+.child1{ 
+  background: linear-gradient(to bottom, #3e515181, #decba476);
+  height: 700px;
+}
+
+.child1 h1{
+  font-size: 70px;
+  color: white;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.child1 p{
+  font-size: 17px;
+  color: white;
+  margin-left: 150px;
+}
+
+.child1 button{
+  margin-left: 170px;
+  height: 40px;
+  width: 140px;
+  font-size: 18px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: 2px 2px 5px white;
+}
+
+.child1 button:hover{
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px 8px black;
+}
+
+.parent2 h1{
+  text-align: center;
+  font-size: 45px;
+}
+
+.same{
+  height: 500px;
+  margin: 5px;
+  background: linear-gradient(to right, #b7ab86, #c6c5c5);
+}
+
+.same h1{
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.same p{
+  font-size: 20px;
+  margin-left: 30px;
+  color: white;
+}
+
+.child2{grid-area: child2;}
+.child3{grid-area: child3;}
+.child4{grid-area: child4;}
+.child5{grid-area: child5;}
+.child6{grid-area: child6;}
+.child7{grid-area: child7;}
+
+.parent3{
+  display: grid;
+  grid: 
+  'child2 child3 child4'
+  'child5 child6 child7'
+  ;
+}
+
+.same:hover h1{
+  text-decoration: underline 2px black;
+}
+
+.parent4{
+  background-color: rgb(7, 7, 144);
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+
+
+
+.child8{
+  width: 20%;
+  color: white;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.child8 h1{
+  font-size: 35px;
+  margin-left:30px;
+}
+
+.child8 p{
+  font-size: 20px;
+}
+
+.child9{
+  width: 20%;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+
+.child9 h1{
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.child9 p{
+  font-size: 20px;
+}
+
+.child10{
+  width: 20%;
+  color: white;
+  margin-top: 20px;
+}
+
+
+.child10 h1{
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.child10 p{
+  font-size: 20px;
+}
+
+.child11{
+  width: 20%;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.child11 h1{
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.child11 p{
+  font-size: 20px;
+}
+
+.child12{
+  width: 20%;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+
+.child12 h1{
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.child12 p{
+  font-size: 20px;
+}
+
+.parent5{
+  display: flex;
+  height: 500px;
+  background-image: url(images/ripped-paper-edges-arrangement.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.child13{
+  width: 30%;
+  color: white;
+}
+
+.child13 h1{
+  margin-top: 150px;
+  margin-left: 120px;
+  font-size: 60px;
+}
+
+.child13 a{
+  font-size: 50px;
+}
+
+.child14{
+  width: 70%;
+  padding:15px;
+  margin: 10px;
+}
+
+.parent6{
+  background-color: rgb(169, 205, 218);
+}
+
+.parent6 h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.parent7{
+  display: flex;
+  height: 520px;
+}
+
+.child15{
+  background-image: url(images/digital-art-style-yoga-illustration.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  margin-left: 50px;
+  margin: 10px;
+}
+
+.child15 h1{
+  margin-top: 30px;
+  font-size: 30px;
+  color: green;
+  margin-left: 20px;
+}
+
+.child15 li{
+  margin-left: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.child15 p{
+  margin-top: 285px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.child16{
+  background-image: url(images/digital-art-style-yoga-illustration.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  margin: 10px;
+}
+
+
+.child16 h1{
+  margin-top: 30px;
+  font-size: 30px;
+  color: green;
+  margin-left: 20px;
+}
+
+.child16 li{
+  margin-left: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.child16 p{
+  margin-top: 90px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.child17{
+  background-image: url(images/digital-art-style-yoga-illustration.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  margin-right: 50px;
+  margin: 10px;
+}
+
+
+.child17 h1{
+  margin-top: 30px;
+  font-size: 30px;
+  color: green;
+  margin-left: 20px;
+}
+
+.child17 li{
+  margin-left: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.child17 p{
+  margin-top: 90px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.parent8{
+  height: 150px;
+}
+
+.parent8 h1{
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.parent8 button{
+  margin-left: 630px;
+  height: 40px;
+  line-height: 40px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: rgb(141, 170, 182);
+  color: white;
+}
+
+.parent8 button:hover{
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  box-shadow: 5px 5px 10px skyblue;
+}
+
+.parent9{
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.child18 h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(141, 170, 182);
+}
+
+.child18 p{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.logo1{
+  margin-left: 450px;
+}
+
+.logo3{
+  margin-left: 10px;
+}
+
+.logo2{
+  margin-left: 10px;
+}
+
+.logo4{
+  margin-left: 15px;
+}
+
+.parent10{
+  background-image: url(images/view-man-practicing-mindfulness-yoga-fantasy-setting.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.child19 h1{
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.input1{
+  margin-left: 380px;
+  height: 45px;
+  border-radius: 50px ;
+  width: 300px;
+  font-size: 18px;  
+  box-shadow: 5px 5px 20px black;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.input2{
+  margin-left:10px;
+  height: 45px;
+  border-radius: 50px ;
+  width: 300px;
+  border: 2px solid black;
+  font-size: 18px;
+  box-shadow: 5px 5px 20px black;
+  text-align: center;
+
+}
+
+.button4{
+  background-color: rgb(83, 83, 139);
+  color: white;
+  height: 40px;
+  border-radius: 50px;
+  width: 150px;
+  margin-left:10px;
+  border: 2px solid black;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px white;
+}
+
+.button4:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 10px black;
+}
+
+.child19 p{
+  margin-left: 470px;
+  font-size: 19px;
+  color: black;
+}
+
+.parent11{
+  display: flex;
+  width: 100%;
+}
+
+.child20{
+  width: 33.3%;
+  margin-left: 50px;
+}
+
+.child20 img{
+  margin-left: 30px;
+}
+
+.child20 p{
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+#instagram{
+  font-size: 40px;
+  background: #125688;
+  color: white;
+  width: 50px;
+  text-align: center;
+}
+
+#facebook{
+  margin-left: 5px;
+  font-size: 40px;
+  background: #3B5998;
+  color: white;
+  text-align: center;
+  width: 60px;
+}
+
+#youtube{
+  margin-left: 5px;
+  font-size: 40px;
+  background: #bb0000;
+  color: white;
+  width: 60px;
+  text-align: center;
+}
+
+#linked{
+  margin-left: 5px;
+  font-size: 40px;
+  text-align: center;
+  width: 60px;
+  background: #007bb5;
+  color: white;
+}
+
+#pinterest{
+  margin-left: 5px;
+  font-size: 40px;
+  text-align: center;
+  width: 60px;
+  background: #cb2027;
+  color: white;
+}
+
+.child21{
+  width: 33.3%;
+}
+
+.child21 ul li{
+  list-style: none;
+  font-size: 20px;
+}
+
+.child21 ul li:hover{
+  text-decoration: underline 2px solid blue;
+}
+
+.mission{
+  margin-top: 25px;
+}
+
+.list{
+  margin-top: 10px;
+}
+
+.child22{
+  width: 33.3%;
+}
+
+.child22 ul li{
+  list-style: none;
+  font-size: 20px;
+}
+
+.child22 ul li:hover{
+  text-decoration: underline 2px solid blue;
+}

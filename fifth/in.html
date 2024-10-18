@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent{
+      display: flex;
+      width: 100%;
+    }
+
+    .child1{
+      width: 50%;
+    }
+
+    .child2{
+      width: 50%;
+    }
+
+.sub1{grid-area: sub1;}
+.sub2{grid-area: sub2;}
+.sub3{grid-area: sub3;}
+.sub4{grid-area: sub4;}
+
+    .subparent{
+      display: grid;
+      grid:
+      'sub1 sub2'
+      'sub3 sub4'
+      ;
+    }
+  </style>
+</head>
+<body>
+  
+
+  <section>
+
+    <section class="parent">
+
+      <div class="child1">
+          <img src="images/img1.webp" alt="" height="100" width="100">
+      </div>
+
+      <div class="child2">
+
+        <section class="subparent">
+          <div class="sub1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus optio autem libero dolores aperiam quibusdam, voluptates voluptatum neque, numquam esse nostrum tenetur, quos soluta dicta eius veniam temporibus sapiente.</p>
+          </div>
+
+          <div class="sub2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus optio autem libero dolores aperiam quibusdam, voluptates voluptatum neque, numquam esse nostrum tenetur, quos soluta dicta eius veniam temporibus sapiente.</p>
+          </div>
+
+          <div class="sub3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus optio autem libero dolores aperiam quibusdam, voluptates voluptatum neque, numquam esse nostrum tenetur, quos soluta dicta eius veniam temporibus sapiente.</p>
+          </div>
+
+          <div class="sub4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus optio autem libero dolores aperiam quibusdam, voluptates voluptatum neque, numquam esse nostrum tenetur, quos soluta dicta eius veniam temporibus sapiente.</p>
+          </div>
+
+
+        </section>
+
+      </div>
+
+
+    </section>
+
+  </section>
+
+
+</body>
+</html>

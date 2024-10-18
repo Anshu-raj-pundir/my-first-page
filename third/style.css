@@ -1,0 +1,496 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.parent{
+  background-color: rgb(207, 237, 249);
+  height: 500px;
+}
+
+nav{
+  margin: left;
+  margin-left: 18px;
+}
+
+nav ul li{
+  float: left;
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  list-style: none;
+  margin-top: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 19px;
+  color:rgb(1, 79, 71);
+}
+
+nav ul li a:hover{
+  text-decoration: underline black;
+  font-size: 20px;
+}
+
+
+
+.sign{
+  margin-left: 97px;
+  font-size: 22px;
+  border-radius: 10px;
+  width: 130px;
+  background-color:rgb(1, 79, 71);
+  color: white;
+  height: 40px;
+}
+
+.sign:hover{
+  color: black;
+  background-color: white;
+}
+
+.head1{
+  font-size: 50px;
+  color:rgb(1, 79, 71);
+  text-align: center;
+}
+
+.para1{
+  font-size: 20px;
+  text-align: center;
+  color:rgb(38, 81, 77);
+}
+
+.button2{
+  margin-left: 600px;
+  font-size: 19px;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(247, 119, 96);
+  color: white;
+  border-radius: 50px;
+}
+
+
+.parent2{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 370px;
+}
+
+.box h1{
+  text-align: center;
+  color:rgb(38, 81, 77);
+  font-size: 22px;
+}
+
+.box1{
+  padding: 0px 0px 0px 40px;
+}
+
+.box4{
+  padding: 0px 40px 0px 0px;
+}
+
+.box{
+  width: 25%;
+  margin: 10px;
+  height: 300px;
+}
+
+.parent3{
+  display: flex;
+  width: 100%;
+  background-image: url(img/yoga-practice-mountains.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#person{
+  font-size: 80px;
+  margin-left: 130px;
+  color:rgb(38, 81, 77);
+}
+
+#brain{
+  font-size: 80px;
+  margin-left: 110px;
+  color:rgb(38, 81, 77);
+}
+
+#clock{
+  font-size: 80px; 
+  margin-left: 100px;
+  color:rgb(38, 81, 77);
+}
+
+.box5{
+  width: 50%;
+  margin-left: 80px;
+  
+}
+
+.box5 h1{
+  margin-top: 200px;
+  font-size: 40px;
+  color:rgb(38, 81, 77);
+}
+
+.box5 p{
+  font-size: 18px;
+  color:white;
+
+}
+
+.button3{
+  border: 1px solid black;
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color:rgb(60, 85, 82);
+  color: white;
+}
+
+.button3:hover{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.box6{
+  width: 50%;
+}
+
+.child1{grid-area: child1;}
+.child2{grid-area: child2;}
+.child3{grid-area: child3;}
+.child4{grid-area: child4;}
+
+.child{
+  padding: 10px;
+  background-color: white;
+  margin: 25px;
+}
+
+.child h1{
+  text-align: center;
+  font-size: 22px;
+  color:rgb(60, 85, 82);
+}
+
+.child p{
+  color:rgb(60, 85, 82);
+  padding: 4px;
+}
+
+.box6{
+  display: grid;
+  grid: 
+  'child1 child2'
+  'child3 child4'
+  ;
+}
+
+.parent4 h1{
+  color:rgb(60, 85, 82);
+ font-size: 50px;
+ text-align: center; 
+}
+
+.parent4 p{
+  color:rgb(38, 81, 77);
+  text-align: center;
+  font-size: 20px;
+}
+
+.button4{
+  margin-left: 600px;
+  height: 60px;
+  line-height: 50px;
+  width: 300px;
+  font-size: 22px;
+  background-color: rgb(60, 85, 82);
+  border-radius: 50px;
+  color: white;
+}
+
+.button4:hover{
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.parent5{
+  display: flex;
+  width: 100%;
+}
+
+.box7{
+  width: 33.3%;
+  background-image: url(img/yoga1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 10px;
+}
+
+.box7 h1{
+  margin-top: 230px;
+  color:rgb(60, 85, 82);
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.box7 button{
+  border-radius: 50px;
+  width: 100px;
+  height: 25px;
+  background-color: skyblue;
+  color:rgb(60, 85, 82);
+  margin-left: 10px;
+}
+
+.box7 p{
+  margin-left: 10px;
+  color: gray;
+  font-size: 18px;
+}
+
+.box8{
+  width: 33.4%;
+  background-image: url(img/yoga2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 10px;
+}
+
+.box8 h1{
+  margin-top: 230px;
+  margin-left: 10px;
+  color:rgb(60, 85, 82);
+  font-size: 20px;
+}
+
+.box8 p{
+  margin-left: 10px;
+  color: gray;
+  font-size: 18px;
+}
+
+.box8 button{
+  border-radius: 50px;
+  width: 100px;
+  height: 25px;
+  background-color: skyblue;
+  color:rgb(60, 85, 82);
+  margin-left: 10px;
+}
+
+.box9{
+  width: 33.3%;
+  background-image: url(img/yoga3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 10px;
+}
+
+
+.box9 h1{
+  margin-top: 230px;
+  margin-left: 10px;
+  color:rgb(60, 85, 82);
+  font-size: 20px;
+}
+
+.box9 p{
+  margin-left: 10px;
+  color: gray;
+  font-size: 18px;
+}
+
+.box9 button{
+  border-radius: 50px;
+  width: 100px;
+  height: 25px;
+  background-color: skyblue;
+  color:rgb(60, 85, 82);
+  margin-left: 10px;
+}
+
+.parent6{
+  width: 100%;
+  display: flex;
+  background-color: rgb(200, 234, 247);
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box10{
+  width: 50%;
+}
+
+.box10 h1{
+  margin-left: 50px;
+  color:rgb(20, 84, 76);
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.box10 p{
+  color:rgb(56, 82, 79);
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.box10 button{
+  margin-left: 80px;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: rgb(60, 85, 82);
+  color: white;
+  border: 2px solid black;
+}
+
+.box10 button:hover{
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.box11{
+  width: 50%;
+}
+
+.box11 img{
+  margin-top: 80px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.parent7 h1{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(56, 82, 79);
+}
+
+.parent8{
+  width: 100%;
+  display: flex;
+}
+
+.box12{
+  width: 25%;
+  margin: 10px;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.box13{
+  width: 25%;
+  margin: 10px;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.box14{
+  width: 25%;
+  margin: 10px;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.box15{
+  width: 25%;
+  margin: 10px;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.parent9{
+  width: 100%;
+}
+
+
+.box16 h1{
+  color:rgb(56, 82, 79);
+  font-size: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.box16 p{
+  text-align: center;
+  margin-left: 50px;
+  color: grey;
+  font-size: 20px;
+}
+
+.parent10{
+  background-color: rgb(194, 229, 243);
+  display: flex;
+  height: 500px;
+}
+
+.box17{
+  width: 50%;
+  margin-top: 150px;
+}
+
+.box17 h1{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(56, 82, 79);
+}
+
+.box17 p{
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button5{
+  width: 280px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 200px;
+  border-radius: 50px;
+  font-size: 22px;
+  background-color:rgb(56, 82, 79) ;
+  color: white;
+  border: 2px solid black;
+}
+
+.button5:hover{
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.box18{
+  width: 50%;
+  background-image: url(img/yoga1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+}

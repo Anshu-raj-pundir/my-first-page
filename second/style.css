@@ -1,0 +1,670 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.left{
+  margin-left: 100px;
+}
+
+nav{
+  margin: left;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+nav ul li{
+  float: left;
+  width: 160px;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: black;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.input{
+  margin-left: 50px;
+  height: 40px;
+  width: 1000px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.parent{
+  display: flex;
+  width: 94%;
+  background-color: rgb(193, 228, 242);
+  height: 60px;
+  margin-left: 50px;
+  margin-right: -50px;
+}
+
+.child1{
+  width: 80%;
+  padding: 5px;
+}
+
+.child2{
+  width: 20%;
+  color: black;
+}
+
+.parent2{
+  display: flex;
+}
+
+.button1{
+  width: 40px;
+  background-color: skyblue;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.child3 p{
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.child3 h1{
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+.child3{
+  background-image: url(image/flower2.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.button2{
+  background-color: black;
+  color: white;
+  width: 230px;
+  margin-left: 50px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button2:hover{
+  box-shadow: 5px 5px 10px skyblue;
+}
+
+.same{
+  margin: 5px;
+}
+
+.child4{
+  width: 30%;
+  background-color: rgb(240, 164, 164);
+  border-radius: 10px;
+  text-align: center  ;
+}
+
+.child4 h2{
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+.child4 h1{
+  font-size: 40px;
+}
+
+.button3{
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.button3:hover{
+  box-shadow: 5px 5px 10px skyblue;
+}
+
+.learn{
+  font-size: 18px;
+}
+
+.head2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.parent3{
+  display: flex;
+}
+
+.child5{
+  animation: slider 9s   infinite  ;
+  height: 500px;
+  width: 50%;
+}
+
+@keyframes slider{
+  0%{
+    background-image: url(image/plate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50%{
+    background-image: url(image/plate2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100%{
+    background-image: url(image/plate3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.child5 h1{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.child5 p{
+  font-size: 18px;
+  text-align: center;
+  animation: para 12s   infinite  ;
+}
+
+@keyframes para{
+  0%{
+    color: black;
+  }
+  25%{
+    color: rgb(7, 245, 150);
+  }
+  50%{
+    color: red;
+  }
+  75%{
+    color: sienna;
+  }
+  100%{
+    color: rgb(237, 237, 8);
+  }
+}
+
+.button4{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 250px;
+  width: 200px;
+  font-size: 17px;  
+}
+
+.button4:hover{
+  box-shadow: 5px 5px 5px red;
+  font-size: 20px;
+}
+
+.child5:hover{
+  box-shadow: 5px 10px 20px skyblue;
+}
+.same2{
+  height: 600px;
+  margin: 10px;
+}
+
+.child6{
+  background-color: lightcoral;
+  width: 50%;
+}
+
+.child6 h1{
+  margin-top: 250px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.child6 p{
+  text-align: center;
+  font-size: 18px;
+  margin-top:10px;
+}
+
+.child6 h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button5{
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 150px;
+  background-color: black;
+  color: wheat;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.button5:hover{
+  font-size: 18px;
+  box-shadow: 5px 5px 10px red;
+}
+
+.child7 h1{
+  font-size: 45px;
+  text-align: center;
+}
+
+.child8{
+  height: 600px;
+  animation: images 12s   infinite  ;
+}
+
+@keyframes images{
+  0%{
+    background-image: url(image/img1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url(image/img2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100%{
+    background-image: url(image/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.parent4{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.same3{
+  margin: 10px;
+  height: 150px;
+}
+
+.same3:hover{
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.child9{
+  width: 33.3%;
+  padding: 5px;
+}
+
+.child9 h1{
+  font-size: 30px;
+}
+
+.child9 p{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.child10{
+  width: 33.3%;
+  padding: 5px;
+}
+
+.child10 h1{
+  font-size: 30px;
+}
+.child10 p{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.child11{
+  width: 33.3%;
+  padding: 5px;
+}
+
+.child11 h1{
+font-size: 30px;
+}
+
+.child11 p{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.button6{
+  background-color: black;
+  color: white;
+  width: 220px;
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-left: 600px;
+}
+
+.button6:hover{
+  box-shadow: 5px 10px 10px red;
+  font-size: 20px;
+}
+
+.parent5 h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.parent5 p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.parent6{
+  display: flex;
+  width: 100%;
+}
+
+.child12{
+  width: 50%;
+  margin-left: 100px;
+}
+
+.child12 h1{
+  font-size: 30px;
+}
+
+.child12 p{
+  font-size: 17px;
+}
+
+.child13{
+  width: 50%;
+  margin-right: 100px;
+}
+
+.child13 h1{
+  font-size: 30px;
+}
+
+.child13 p{
+  font-size: 17px;
+}
+
+.button7{
+  border-radius: 1px solid;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.button7:hover{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+}
+
+.parent7 h1{
+  font-size: 40px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.parent8{
+  background-image: url(image/3d-cartoon-style-character.jpg);
+  height: 800px;
+  margin: 0px 50px 0px 50px;
+}
+
+.child14{
+  background-color: white;
+  width: 40%;
+  height: 450px;
+  margin-top: 50px;
+  margin: 0px 0px 50px 800px;
+  border-radius: 10px;
+}
+
+.child14 h1{
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.child14 p{
+  margin-left: 70px;
+}
+
+#glass{
+  margin-left: 60px;
+  font-size: 25px;
+  background-color: skyblue;
+  color:black;
+  padding: 5px;
+}
+
+#store{
+  margin-left: 60px;
+  font-size: 25px;
+  background-color: skyblue;
+  color:black;
+  padding: 5px;
+}
+
+#file{
+  margin-left: 60px;
+  font-size: 25px;
+  background-color: skyblue;
+  color:black;
+  padding: 5px;
+}
+
+.domain:hover{
+  text-decoration:2px solid underline blue;
+  color: blue;
+  font-size: 17px;
+}
+
+.online:hover{
+  text-decoration:2px solid underline blue;
+  color: blue;
+  font-size: 17px;
+}
+
+.ssc:hover{
+  text-decoration:2px solid underline blue;
+  color: blue;
+  font-size: 17px;
+}
+
+.parent9{
+  background-color: black;
+  display: flex;
+  border-radius: 10px;
+}
+
+.box1{
+  color: white;
+  margin-left: 10px;
+}
+
+.box1 h1{
+  margin-top: 10px;
+}
+
+.box1 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  box-shadow: 5px 5px 10px red;
+  color: skyblue;
+}
+
+.box1 li{
+  list-style: none;
+}
+
+.box1 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.box2{
+  color: white;
+  margin-left: 120px;
+}
+
+.box2 h1{
+  margin-top: 10px;
+}
+
+.box2 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  box-shadow: 5px 5px 10px red;
+  color: skyblue;
+}
+
+.box2 li{
+  list-style: none;
+}
+
+.box2 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.box3{
+  color: white;
+  margin-left: 120px; 
+}
+
+.box3 h1{
+  margin-top: 10px;
+}
+
+.box3 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  box-shadow: 5px 5px 10px red;
+  color: skyblue;
+}
+
+.box3 li{
+  list-style: none;
+}
+
+.box3 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.box4{
+  color: white;
+  margin-left: 120px;  
+}
+
+.box4 h1{
+  margin-top: 10px;
+}
+
+.box4 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  box-shadow: 5px 5px 10px red;
+  color: skyblue;
+}
+
+.box4 li{
+  list-style: none;
+}
+
+
+.box4 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.box5{
+  color: white;
+  margin-left: 120px;  
+}
+
+.box5 h1{
+  margin-top: 10px;
+}
+
+.box5 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  color: skyblue;
+  box-shadow: 5px 5px 10px red;
+}
+
+.box5 li{
+  list-style: none;
+}
+
+.box5 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.box6{
+  color: white;
+  margin-left: 120px;  
+}
+
+.box6 h1{
+  margin-top: 10px;
+}
+
+.box6 h1:hover{
+  font-size: 20px;
+  text-decoration: underline wavy skyblue;
+  color: skyblue;
+  box-shadow: 5px 5px 10px red;
+}
+
+.box6 li{
+  list-style: none;
+}
+
+
+.box6 li:hover{
+  color: skyblue;
+  text-decoration: underline;
+}
