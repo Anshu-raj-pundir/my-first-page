@@ -235,3 +235,75 @@ nav ul li a:hover{
 .child5{
   width: 50%;
 }
+
+.para{
+  font-size: 30px;
+  margin-left: 120px;
+  text-decoration: underline 2px black;
+}
+
+.parent5{
+  background-color: black;
+}
+
+.parent5 h1{
+  text-align: center;
+  font-size: 55px;
+  color: wheat;
+}
+
+.parent5 p{
+  color: white;
+  font-size: 27px;
+  text-align: center;
+}
+
+.para2{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.subparent{
+  width: 80%;
+  margin: auto;
+  height: 600px;
+  animation: slider 15s   infinite  ;
+  border-radius: 10px;
+}
+
+@keyframes slider{
+  0%{
+    background-image: url(images/img1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  25%{
+    background-image: url(images/img5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url(images/img3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  75%{
+    background-image: url(images/img4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100%{
+    background-image: url(images/img7.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
